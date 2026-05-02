@@ -1,0 +1,248 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --surface: #131315;
+  --surface2: #1c1c1f;
+  --primary: #00E5FF;
+  --accent: #D946EF;
+  --muted: #a1a1aa;
+  --border: rgba(255, 255, 255, 0.05);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-inter), sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-foreground { color: var(--foreground); }
+  .text-muted { color: var(--muted); }
+  .bg-background { background-color: var(--background); }
+  .bg-surface { background-color: var(--surface); }
+  .bg-surface2 { background-color: var(--surface2); }
+  .bg-primary { background-color: var(--primary); }
+  .text-primary { color: var(--primary); }
+  .border-border { border-color: var(--border); }
+  .glow-primary {
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.3);
+  }
+  .glow-primary:hover {
+    box-shadow: 0 0 30px rgba(0, 229, 255, 0.5);
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(12px);
+  }
+}
+
+/* =============================================
+   LOCALE TICKER BANNER — ltb-*
+   ============================================= */
+
+.ltb-section {
+  position: relative;
+  padding: 72px 0 80px;
+  overflow: hidden;
+}
+
+.ltb-seo {
+  position: absolute;
+  width: 1px; height: 1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.ltb-heading {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: rgba(255,255,255,0.3);
+  text-transform: uppercase;
+  margin: 0 0 44px;
+}
+
+.ltb-outer {
+  position: relative;
+  overflow: hidden;
+}
+
+.ltb-fade {
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 160px;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.ltb-fade--l {
+  left: 0;
+  background: linear-gradient(to right, #000 0%, transparent 100%);
+}
+
+.ltb-fade--r {
+  right: 0;
+  background: linear-gradient(to left, #000 0%, transparent 100%);
+}
+
+.ltb-track {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  padding: 16px 0 24px;
+  animation: ltb-scroll 35s linear infinite;
+}
+
+.ltb-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes ltb-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+
+/* ── Card ── */
+.ltb-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  background: #0d0d0d;
+  border: 1px solid rgba(255,255,255,0.08);
+  transition:
+    transform 0.35s cubic-bezier(0.34,1.56,0.64,1),
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.ltb-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: rgba(255,255,255,0.2);
+  box-shadow:
+    0 24px 64px rgba(0,0,0,0.7),
+    0 0 40px -8px var(--accent, #00ccff);
+}
+
+/* ── Flag section — CSS background-image via --flag var ── */
+.ltb-card__flag {
+  position: relative;
+  width: 100%;
+  height: 148px;
+  background-image: var(--flag);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.5s ease;
+}
+
+.ltb-card:hover .ltb-card__flag {
+  transform: scale(1.06);
+}
+
+.ltb-card__flag-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    160deg,
+    rgba(0,0,0,0.1) 0%,
+    rgba(0,0,0,0.6) 100%
+  );
+}
+
+.ltb-card__badge {
+  position: absolute;
+  bottom: 12px;
+  left: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.ltb-card__lang {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.9);
+  line-height: 1;
+}
+
+.ltb-card__region {
+  font-size: 11px;
+  color: rgba(255,255,255,0.6);
+  text-shadow: 0 1px 6px rgba(0,0,0,0.9);
+  letter-spacing: 0.05em;
+}
+
+/* ── Body ── */
+.ltb-card__body {
+  padding: 16px 18px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ltb-card__title {
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.92);
+  margin: 0;
+}
+
+.ltb-card__desc {
+  font-size: 12px;
+  color: rgba(255,255,255,0.38);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.ltb-card__cta {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent, #00ccff);
+  margin-top: 6px;
+  transition: letter-spacing 0.2s ease;
+}
+
+.ltb-card:hover .ltb-card__cta {
+  letter-spacing: 0.06em;
+}
+
+/* ── Bottom accent bar ── */
+.ltb-card__bar {
+  height: 3px;
+  background: var(--accent, #00ccff);
+  opacity: 0.8;
+  transition: height 0.3s ease, opacity 0.3s ease;
+}
+
+.ltb-card:hover .ltb-card__bar {
+  height: 4px;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .ltb-card { width: 230px; }
+  .ltb-card__flag { height: 120px; }
+  .ltb-fade { width: 70px; }
+}
