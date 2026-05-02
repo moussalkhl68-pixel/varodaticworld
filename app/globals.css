@@ -246,3 +246,64 @@
   .ltb-card__flag { height: 120px; }
   .ltb-fade { width: 70px; }
 }
+
+/* =============================================
+   REVIEWS INFINITE CAROUSEL
+   ============================================= */
+
+.reviews-outer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.reviews-fade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.reviews-fade--left {
+  left: 0;
+  background: linear-gradient(to right, #000 0%, transparent 100%);
+}
+
+.reviews-fade--right {
+  right: 0;
+  background: linear-gradient(to left, #000 0%, transparent 100%);
+}
+
+.reviews-track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  padding: 16px 0 24px;
+  animation: reviews-scroll 30s linear infinite;
+}
+
+.reviews-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes reviews-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.reviews-card-wrapper {
+  flex-shrink: 0;
+  width: 360px;
+}
+
+@media (max-width: 768px) {
+  .reviews-card-wrapper {
+    width: 290px;
+  }
+
+  .reviews-fade {
+    width: 60px;
+  }
+}
