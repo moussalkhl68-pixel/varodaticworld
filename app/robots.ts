@@ -6,10 +6,10 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/_next/"],
+        disallow: ["/api/"],
       },
     ],
-    sitemap: "https://varodatociptv.pro/sitemap.xml",
-    host: "https://varodatociptv.pro",
+    sitemap: "https://varodaticiptv.pro/sitemap.xml",
+    host: "https://varodaticiptv.pro",
   };
 }
