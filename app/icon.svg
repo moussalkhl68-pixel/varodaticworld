@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Dark background -->
+  <rect width="32" height="32" rx="6" fill="#0a0a0a"/>
+  <!-- Letter V in brand cyan — bold, centered -->
+  <text
+    x="16"
+    y="24"
+    font-family="Arial Black, sans-serif"
+    font-weight="900"
+    font-size="22"
+    fill="#00E5FF"
+    text-anchor="middle"
+    letter-spacing="-1"
+  >V</text>
+</svg>
