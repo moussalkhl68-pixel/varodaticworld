@@ -18,10 +18,10 @@ export const metadata: Metadata = {
   keywords:
     "varodatic iptv schweiz, bestes iptv schweiz 2026, iptv abonnement schweiz, iptv schweiz deutsch, iptv für smart tv schweiz, schweizer tv kanäle iptv",
   alternates: {
-    canonical: "https://varodatociptv.pro/de-ch/",
+    canonical: "https://varodaticiptv.pro/de-ch/",
     languages: {
-      "de-CH": "https://varodatociptv.pro/de-ch/",
-      en: "https://varodatociptv.pro/",
+      "de-CH": "https://varodaticiptv.pro/de-ch/",
+      en: "https://varodaticiptv.pro/",
     },
   },
   openGraph: {
@@ -30,12 +30,12 @@ export const metadata: Metadata = {
       "Premium IPTV Schweiz mit 26'000+ Live-Sendern, 4K, Sport und VOD. SRF, DAZN inklusive. Gratis Testversion verfügbar.",
     locale: "de_CH",
     alternateLocale: ["en_US"],
-    url: "https://varodatociptv.pro/de-ch/",
+    url: "https://varodaticiptv.pro/de-ch/",
     siteName: "Varodatic IPTV",
     type: "website",
     images: [
       {
-        url: "https://varodatociptv.pro/og-image.jpg",
+        url: "https://varodaticiptv.pro/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Varodatic IPTV Schweiz — Premium Streaming Service 4K",
@@ -48,8 +48,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Varodatic IPTV",
-  url: "https://varodatociptv.pro/de-ch",
-  logo: "https://varodatociptv.pro/logo.png",
+  url: "https://varodaticiptv.pro/de-ch",
+  logo: "https://varodaticiptv.pro/logo.png",
   description: "Premium IPTV Service für die Schweiz mit über 26'000 Live-Sendern.",
   contactPoint: {
     "@type": "ContactPoint",
@@ -57,14 +57,14 @@ const organizationSchema = {
     availableLanguage: ["German", "English", "French", "Italian"],
     contactOption: "TollFree",
   },
-  sameAs: ["https://varodatociptv.pro"],
+  sameAs: ["https://varodaticiptv.pro"],
 };
 
 const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   name: "Varodatic IPTV Schweiz",
-  url: "https://varodatociptv.pro/de-ch/",
+  url: "https://varodaticiptv.pro/de-ch/",
   description:
     "Premium IPTV Service mit über 26'000 Live-Sendern, VOD-Inhalten in 4K, Sport und internationalem Entertainment für die Schweiz.",
   brand: { "@type": "Brand", name: "Varodatic" },

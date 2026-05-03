@@ -10,10 +10,10 @@ export const metadata: Metadata = {
   description:
     "Abbonamento IPTV Svizzera da CHF 35 senza vincoli. Oltre 26.000 canali in diretta, 4K, sport e VOD. Attivazione immediata.",
   alternates: {
-    canonical: "https://varodatociptv.pro/it-ch/pricing/",
+    canonical: "https://varodaticiptv.pro/it-ch/pricing/",
     languages: {
-      "it-CH": "https://varodatociptv.pro/it-ch/pricing/",
-      en: "https://varodatociptv.pro/pricing/",
+      "it-CH": "https://varodaticiptv.pro/it-ch/pricing/",
+      en: "https://varodaticiptv.pro/pricing/",
     },
   },
   openGraph: {
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     title: "Prezzi IPTV Svizzera 2026 — Piani Varodatic da CHF 35",
     description:
       "Piani IPTV Svizzera da CHF 35 senza vincoli. Oltre 26.000 canali, 4K, sport e VOD. Senza contratto.",
-    url: "https://varodatociptv.pro/it-ch/pricing/",
-    images: [{ url: "https://varodatociptv.pro/og-image.jpg", width: 1200, height: 630 }],
+    url: "https://varodaticiptv.pro/it-ch/pricing/",
+    images: [{ url: "https://varodaticiptv.pro/og-image.jpg", width: 1200, height: 630 }],
   },
 };
 
@@ -53,8 +53,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Varodatic IPTV",
-  url: "https://varodatociptv.pro/it-ch/",
-  logo: "https://varodatociptv.pro/logo.png",
+  url: "https://varodaticiptv.pro/it-ch/",
+  logo: "https://varodaticiptv.pro/logo.png",
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer support",
@@ -73,7 +73,7 @@ export default function ItChPricingPage() {
     brand: { "@type": "Brand", name: "Varodatic IPTV" },
     offers: {
       "@type": "AggregateOffer",
-      url: "https://varodatociptv.pro/it-ch/pricing/",
+      url: "https://varodaticiptv.pro/it-ch/pricing/",
       priceCurrency: "CHF",
       lowPrice: "35.00",
       highPrice: "69.00",

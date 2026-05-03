@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   description:
     "Guías expertas de Varodatic IPTV en español — instalación en Smart TV, configuración Firestick, IPTV vs cable y más. Actualizadas para 2026.",
   alternates: {
-    canonical: "https://varodatociptv.pro/es/blog/",
+    canonical: "https://varodaticiptv.pro/es/blog/",
     languages: {
-      en: "https://varodatociptv.pro/blog/",
-      es: "https://varodatociptv.pro/es/blog/",
+      en: "https://varodaticiptv.pro/blog/",
+      es: "https://varodaticiptv.pro/es/blog/",
     },
   },
   openGraph: {
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     title: "Blog Varodatic IPTV España — Guías y Tutoriales 2026",
     description:
       "Guías expertas de instalación, comparativas de reproductores y trucos de streaming para tu suscripción Varodatic IPTV. Actualizadas para 2026.",
-    url: "https://varodatociptv.pro/es/blog/",
-    images: [{ url: "https://varodatociptv.pro/og-image.jpg", width: 1200, height: 630 }],
+    url: "https://varodaticiptv.pro/es/blog/",
+    images: [{ url: "https://varodaticiptv.pro/og-image.jpg", width: 1200, height: 630 }],
   },
 };
 

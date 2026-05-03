@@ -10,10 +10,10 @@ export const metadata: Metadata = {
   description:
     "Elige tu plan IPTV en España. Desde 35€ sin permanencia. Más de 26.000 canales en vivo, 4K, deportes y VOD. Activación inmediata.",
   alternates: {
-    canonical: "https://varodatociptv.pro/es/pricing",
+    canonical: "https://varodaticiptv.pro/es/pricing",
     languages: {
-      en: "https://varodatociptv.pro/pricing",
-      es: "https://varodatociptv.pro/es/pricing",
+      en: "https://varodaticiptv.pro/pricing",
+      es: "https://varodaticiptv.pro/es/pricing",
     },
   },
   openGraph: {
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     title: "Precios IPTV Varodatic España 2026 — Planes desde 35€",
     description:
       "Planes IPTV en España desde 35€ sin permanencia. Más de 26.000 canales, 4K, deportes y VOD. Sin contrato.",
-    url: "https://varodatociptv.pro/es/pricing",
+    url: "https://varodaticiptv.pro/es/pricing",
     images: [
       {
-        url: "https://varodatociptv.pro/og-image.jpg",
+        url: "https://varodaticiptv.pro/og-image.jpg",
         width: 1200,
         height: 630,
       },
@@ -59,8 +59,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Varodatic IPTV",
-  url: "https://varodatociptv.pro/es/",
-  logo: "https://varodatociptv.pro/logo.png",
+  url: "https://varodaticiptv.pro/es/",
+  logo: "https://varodaticiptv.pro/logo.png",
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer support",
@@ -82,7 +82,7 @@ export default function EsPricingPage() {
     },
     offers: {
       "@type": "AggregateOffer",
-      url: "https://varodatociptv.pro/es/pricing",
+      url: "https://varodaticiptv.pro/es/pricing",
       priceCurrency: "EUR",
       lowPrice: "35.00",
       highPrice: "69.00",

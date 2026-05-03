@@ -18,10 +18,10 @@ export const metadata: Metadata = {
   keywords:
     "varodatic iptv españa, iptv españa 2026, suscripcion iptv españa, canales iptv español, mejor iptv españa",
   alternates: {
-    canonical: "https://varodatociptv.pro/es/",
+    canonical: "https://varodaticiptv.pro/es/",
     languages: {
-      en: "https://varodatociptv.pro/",
-      es: "https://varodatociptv.pro/es/",
+      en: "https://varodaticiptv.pro/",
+      es: "https://varodaticiptv.pro/es/",
     },
   },
   openGraph: {
@@ -30,12 +30,12 @@ export const metadata: Metadata = {
       "Suscripción IPTV premium en España. Más de 26.000 canales en vivo, 4K, deportes, películas y series. Prueba gratuita disponible. Activación inmediata.",
     locale: "es_ES",
     alternateLocale: ["en_US"],
-    url: "https://varodatociptv.pro/es/",
+    url: "https://varodaticiptv.pro/es/",
     siteName: "Varodatic IPTV",
     type: "website",
     images: [
       {
-        url: "https://varodatociptv.pro/og-image.jpg",
+        url: "https://varodaticiptv.pro/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Varodatic IPTV España — Servicio de Streaming 4K",
@@ -48,8 +48,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Varodatic IPTV",
-  url: "https://varodatociptv.pro/es",
-  logo: "https://varodatociptv.pro/logo.png",
+  url: "https://varodaticiptv.pro/es",
+  logo: "https://varodaticiptv.pro/logo.png",
   description: "Servicio IPTV premium para España con más de 26.000 canales en vivo.",
   contactPoint: {
     "@type": "ContactPoint",
@@ -57,14 +57,14 @@ const organizationSchema = {
     availableLanguage: ["Spanish", "English"],
     contactOption: "TollFree",
   },
-  sameAs: ["https://varodatociptv.pro"],
+  sameAs: ["https://varodaticiptv.pro"],
 };
 
 const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   name: "Varodatic IPTV España",
-  url: "https://varodatociptv.pro/es/",
+  url: "https://varodaticiptv.pro/es/",
   description:
     "Servicio IPTV premium con más de 26.000 canales en vivo, contenido VOD en 4K, deportes y entretenimiento internacional para España.",
   brand: { "@type": "Brand", name: "Varodatic" },

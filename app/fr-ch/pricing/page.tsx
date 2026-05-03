@@ -10,10 +10,10 @@ export const metadata: Metadata = {
   description:
     "Abonnement IPTV Suisse Romande dès CHF 35 sans engagement. Plus de 26'000 chaînes en direct, 4K, sport et VOD. Activation instantanée.",
   alternates: {
-    canonical: "https://varodatociptv.pro/fr-ch/pricing/",
+    canonical: "https://varodaticiptv.pro/fr-ch/pricing/",
     languages: {
-      "fr-CH": "https://varodatociptv.pro/fr-ch/pricing/",
-      en: "https://varodatociptv.pro/pricing/",
+      "fr-CH": "https://varodaticiptv.pro/fr-ch/pricing/",
+      en: "https://varodaticiptv.pro/pricing/",
     },
   },
   openGraph: {
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     title: "Tarifs IPTV Suisse 2026 — Offres Varodatic dès CHF 35",
     description:
       "Offres IPTV Suisse dès CHF 35 sans engagement. Plus de 26'000 chaînes, 4K, sport et VOD. Sans contrat.",
-    url: "https://varodatociptv.pro/fr-ch/pricing/",
-    images: [{ url: "https://varodatociptv.pro/og-image.jpg", width: 1200, height: 630 }],
+    url: "https://varodaticiptv.pro/fr-ch/pricing/",
+    images: [{ url: "https://varodaticiptv.pro/og-image.jpg", width: 1200, height: 630 }],
   },
 };
 
@@ -53,8 +53,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Varodatic IPTV",
-  url: "https://varodatociptv.pro/fr-ch/",
-  logo: "https://varodatociptv.pro/logo.png",
+  url: "https://varodaticiptv.pro/fr-ch/",
+  logo: "https://varodaticiptv.pro/logo.png",
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer support",
@@ -73,7 +73,7 @@ export default function FrChPricingPage() {
     brand: { "@type": "Brand", name: "Varodatic IPTV" },
     offers: {
       "@type": "AggregateOffer",
-      url: "https://varodatociptv.pro/fr-ch/pricing/",
+      url: "https://varodaticiptv.pro/fr-ch/pricing/",
       priceCurrency: "CHF",
       lowPrice: "35.00",
       highPrice: "69.00",

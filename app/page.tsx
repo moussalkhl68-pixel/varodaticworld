@@ -25,10 +25,10 @@ export async function generateMetadata() {
       url: "https://varodaticiptv.pro",
       images: [
         {
-          url: "https://varodaticiptv.pro/og-image.jpg",
+          url: "https://varodaticiptv.pro/og-image.png",
           width: 1200,
           height: 630,
-          alt: "Varodatic IPTV — 4K Streaming Service",
+          alt: "Varodatic IPTV — 26,000+ Channels in 4K",
         },
       ],
     },

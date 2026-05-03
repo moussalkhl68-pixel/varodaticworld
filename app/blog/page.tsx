@@ -9,10 +9,10 @@ export async function generateMetadata() {
       canonical: "https://varodaticiptv.pro/blog",
     },
     openGraph: {
-      title: "Varodatic IPTV Blog — Guides & Streaming Tips",
-      description: "Expert IPTV setup guides, reviews and streaming tips from Varodatic. Updated for 2026.",
+      title: "Varodatic IPTV Blog — Streaming Guides & Tips",
+      description: "Latest updates, setup guides, and tips for the best streaming experience with Varodatic IPTV.",
       url: "https://varodaticiptv.pro/blog",
-      images: [{ url: "https://varodaticiptv.pro/og-image.jpg", width: 1200, height: 630 }],
+      images: [{ url: "https://varodaticiptv.pro/og-image.png", width: 1200, height: 630 }],
     },
   };
 }

@@ -17,7 +17,7 @@ export async function generateMetadata() {
       title: "Varodatic IPTV Pricing — Plans from $35 | Free Trial",
       description: "Flexible Varodatic IPTV plans. 3, 6 or 12 months. 1 to 3 connections. Cancel anytime.",
       url: "https://varodaticiptv.pro/pricing",
-      images: [{ url: "https://varodaticiptv.pro/og-image.jpg", width: 1200, height: 630 }],
+      images: [{ url: "https://varodaticiptv.pro/og-image.png", width: 1200, height: 630 }],
     },
   };
 }

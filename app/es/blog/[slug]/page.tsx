@@ -21,15 +21,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.metaTitle,
     description: post.metaDescription,
     alternates: {
-      canonical: `https://varodatociptv.pro/es/blog/${post.slug}/`,
+      canonical: `https://varodaticiptv.pro/es/blog/${post.slug}/`,
       languages: post.hreflangEn
-        ? { es: `https://varodatociptv.pro/es/blog/${post.slug}/`, en: post.hreflangEn }
+        ? { es: `https://varodaticiptv.pro/es/blog/${post.slug}/`, en: post.hreflangEn }
         : undefined,
     },
     openGraph: {
       title: post.metaTitle,
       description: post.metaDescription,
-      url: `https://varodatociptv.pro/es/blog/${post.slug}/`,
+      url: `https://varodaticiptv.pro/es/blog/${post.slug}/`,
       locale: "es_ES",
       type: "article",
       publishedTime: post.date,
@@ -102,11 +102,11 @@ export default async function EsBlogPostPage({ params }: Props) {
     datePublished: post.date,
     dateModified: post.date,
     inLanguage: "es",
-    author: [{ "@type": "Organization", name: "Varodatic IPTV", url: "https://varodatociptv.pro/es/" }],
+    author: [{ "@type": "Organization", name: "Varodatic IPTV", url: "https://varodaticiptv.pro/es/" }],
     publisher: {
       "@type": "Organization",
       name: "Varodatic IPTV",
-      logo: { "@type": "ImageObject", url: "https://varodatociptv.pro/logo.png" },
+      logo: { "@type": "ImageObject", url: "https://varodaticiptv.pro/logo.png" },
     },
   };
 

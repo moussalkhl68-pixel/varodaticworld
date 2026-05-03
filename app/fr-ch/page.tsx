@@ -18,10 +18,10 @@ export const metadata: Metadata = {
   keywords:
     "varodatic iptv suisse, meilleur iptv suisse 2026, abonnement iptv suisse romande, iptv romand, iptv pour smart tv suisse, chaînes suisses iptv",
   alternates: {
-    canonical: "https://varodatociptv.pro/fr-ch/",
+    canonical: "https://varodaticiptv.pro/fr-ch/",
     languages: {
-      "fr-CH": "https://varodatociptv.pro/fr-ch/",
-      en: "https://varodatociptv.pro/",
+      "fr-CH": "https://varodaticiptv.pro/fr-ch/",
+      en: "https://varodaticiptv.pro/",
     },
   },
   openGraph: {
@@ -30,12 +30,12 @@ export const metadata: Metadata = {
       "IPTV premium Suisse Romande avec 26'000+ chaînes en direct, 4K, sport et VOD. RTS, Canal+ inclus. Essai gratuit disponible.",
     locale: "fr_CH",
     alternateLocale: ["en_US"],
-    url: "https://varodatociptv.pro/fr-ch/",
+    url: "https://varodaticiptv.pro/fr-ch/",
     siteName: "Varodatic IPTV",
     type: "website",
     images: [
       {
-        url: "https://varodatociptv.pro/og-image.jpg",
+        url: "https://varodaticiptv.pro/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Varodatic IPTV Suisse — Service de Streaming Premium 4K",
@@ -48,8 +48,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Varodatic IPTV",
-  url: "https://varodatociptv.pro/fr-ch",
-  logo: "https://varodatociptv.pro/logo.png",
+  url: "https://varodaticiptv.pro/fr-ch",
+  logo: "https://varodaticiptv.pro/logo.png",
   description: "Service IPTV premium pour la Suisse Romande avec plus de 26'000 chaînes en direct.",
   contactPoint: {
     "@type": "ContactPoint",
@@ -57,14 +57,14 @@ const organizationSchema = {
     availableLanguage: ["French", "German", "Italian", "English"],
     contactOption: "TollFree",
   },
-  sameAs: ["https://varodatociptv.pro"],
+  sameAs: ["https://varodaticiptv.pro"],
 };
 
 const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   name: "Varodatic IPTV Suisse Romande",
-  url: "https://varodatociptv.pro/fr-ch/",
+  url: "https://varodaticiptv.pro/fr-ch/",
   description:
     "Service IPTV premium avec plus de 26'000 chaînes en direct, contenus VOD en 4K, sport et divertissement international pour la Suisse.",
   brand: { "@type": "Brand", name: "Varodatic" },

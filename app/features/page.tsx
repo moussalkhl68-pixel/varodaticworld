@@ -14,10 +14,10 @@ export async function generateMetadata() {
       canonical: "https://varodaticiptv.pro/features",
     },
     openGraph: {
-      title: "Varodatic IPTV Features — 4K Channels, VOD & 99.9% Uptime",
-      description: "26,000+ channels, 4K quality, VOD library, EPG guide and multi-device support.",
+      title: "Varodatic IPTV Features — 4K Quality & Instant Setup",
+      description: "Explore the features of Varodatic IPTV. 26,000+ channels, 4K streaming, zero buffering, EPG, and 24/7 support.",
       url: "https://varodaticiptv.pro/features",
-      images: [{ url: "https://varodaticiptv.pro/og-image.jpg", width: 1200, height: 630 }],
+      images: [{ url: "https://varodaticiptv.pro/og-image.png", width: 1200, height: 630 }],
     },
   };
 }

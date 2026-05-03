@@ -13,10 +13,10 @@ export async function generateMetadata() {
       canonical: "https://varodaticiptv.pro/support",
     },
     openGraph: {
-      title: "Varodatic IPTV Support — Setup Help & FAQ",
-      description: "Setup guides, FAQ and 24/7 WhatsApp support for Varodatic IPTV subscribers.",
+      title: "Varodatic IPTV Support — 24/7 WhatsApp Assistance",
+      description: "Need help? Contact Varodatic IPTV support via WhatsApp for instant activation, troubleshooting, or billing questions.",
       url: "https://varodaticiptv.pro/support",
-      images: [{ url: "https://varodaticiptv.pro/og-image.jpg", width: 1200, height: 630 }],
+      images: [{ url: "https://varodaticiptv.pro/og-image.png", width: 1200, height: 630 }],
     },
   };
 }

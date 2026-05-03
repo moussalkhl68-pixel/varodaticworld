@@ -18,10 +18,10 @@ export const metadata: Metadata = {
   keywords:
     "varodatic iptv svizzera, miglior iptv svizzera 2026, abbonamento iptv svizzera, iptv svizzero italiano, canali svizzeri iptv, iptv per smart tv svizzera",
   alternates: {
-    canonical: "https://varodatociptv.pro/it-ch/",
+    canonical: "https://varodaticiptv.pro/it-ch/",
     languages: {
-      "it-CH": "https://varodatociptv.pro/it-ch/",
-      en: "https://varodatociptv.pro/",
+      "it-CH": "https://varodaticiptv.pro/it-ch/",
+      en: "https://varodaticiptv.pro/",
     },
   },
   openGraph: {
@@ -30,12 +30,12 @@ export const metadata: Metadata = {
       "IPTV premium Svizzera con 26.000+ canali in diretta, 4K, sport e VOD. RSI, Rai, DAZN inclusi. Prova gratuita disponibile.",
     locale: "it_CH",
     alternateLocale: ["en_US"],
-    url: "https://varodatociptv.pro/it-ch/",
+    url: "https://varodaticiptv.pro/it-ch/",
     siteName: "Varodatic IPTV",
     type: "website",
     images: [
       {
-        url: "https://varodatociptv.pro/og-image.jpg",
+        url: "https://varodaticiptv.pro/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Varodatic IPTV Svizzera — Servizio di Streaming Premium 4K",
@@ -48,8 +48,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Varodatic IPTV",
-  url: "https://varodatociptv.pro/it-ch",
-  logo: "https://varodatociptv.pro/logo.png",
+  url: "https://varodaticiptv.pro/it-ch",
+  logo: "https://varodaticiptv.pro/logo.png",
   description: "Servizio IPTV premium per la Svizzera italiana con oltre 26.000 canali in diretta.",
   contactPoint: {
     "@type": "ContactPoint",
@@ -57,14 +57,14 @@ const organizationSchema = {
     availableLanguage: ["Italian", "German", "French", "English"],
     contactOption: "TollFree",
   },
-  sameAs: ["https://varodatociptv.pro"],
+  sameAs: ["https://varodaticiptv.pro"],
 };
 
 const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   name: "Varodatic IPTV Svizzera",
-  url: "https://varodatociptv.pro/it-ch/",
+  url: "https://varodaticiptv.pro/it-ch/",
   description:
     "Servizio IPTV premium con oltre 26.000 canali in diretta, contenuti VOD in 4K, sport e intrattenimento internazionale per la Svizzera.",
   brand: { "@type": "Brand", name: "Varodatic" },
