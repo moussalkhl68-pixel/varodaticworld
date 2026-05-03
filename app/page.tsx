@@ -17,15 +17,15 @@ export async function generateMetadata() {
     title: "Varodatic IPTV — 26,000+ Channels in 4K | Free Trial",
     description: "Discover Varodatic IPTV with 26,000+ channels, 4K streaming, fast setup, and a free trial. Stream smarter with premium live TV and VOD.",
     alternates: {
-      canonical: "https://www.varodaticiptv.pro",
+      canonical: "https://varodaticiptv.pro",
     },
     openGraph: {
       title: "Varodatic IPTV — 26,000+ Channels in 4K | Free Trial",
       description: "Discover Varodatic IPTV with 26,000+ channels, 4K streaming, fast setup, and a free trial. Stream smarter with premium live TV and VOD.",
-      url: "https://www.varodaticiptv.pro",
+      url: "https://varodaticiptv.pro",
       images: [
         {
-          url: "https://www.varodaticiptv.pro/og-image.jpg",
+          url: "https://varodaticiptv.pro/og-image.jpg",
           width: 1200,
           height: 630,
           alt: "Varodatic IPTV — 4K Streaming Service",

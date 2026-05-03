@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.varodaticiptv.pro"),
+  metadataBase: new URL("https://varodaticiptv.pro"),
   alternates: {
     languages: {
-      "en": "https://www.varodaticiptv.pro",
-      "es": "https://www.varodaticiptv.pro/es",
-      "x-default": "https://www.varodaticiptv.pro",
+      "en": "https://varodaticiptv.pro",
+      "es": "https://varodaticiptv.pro/es",
+      "x-default": "https://varodaticiptv.pro",
     },
   },
 };

@@ -6,13 +6,13 @@ export async function generateMetadata() {
     title: "Varodatic IPTV Blog — Setup Guides, Reviews & Tips",
     description: "Expert IPTV guides from Varodatic — Firestick setup, player reviews, streaming tips, and channel comparisons. Updated for 2026.",
     alternates: {
-      canonical: "https://www.varodaticiptv.pro/blog",
+      canonical: "https://varodaticiptv.pro/blog",
     },
     openGraph: {
       title: "Varodatic IPTV Blog — Guides & Streaming Tips",
       description: "Expert IPTV setup guides, reviews and streaming tips from Varodatic. Updated for 2026.",
-      url: "https://www.varodaticiptv.pro/blog",
-      images: [{ url: "https://www.varodaticiptv.pro/og-image.jpg", width: 1200, height: 630 }],
+      url: "https://varodaticiptv.pro/blog",
+      images: [{ url: "https://varodaticiptv.pro/og-image.jpg", width: 1200, height: 630 }],
     },
   };
 }

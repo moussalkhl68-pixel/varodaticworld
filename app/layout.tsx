@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.varodaticiptv.pro"),
+  metadataBase: new URL("https://varodaticiptv.pro"),
   title: {
     default: "Varodatic IPTV — 26,000+ Channels in 4K | Free Trial",
     template: "%s | Varodatic IPTV",
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
   creator: "Varodatic IPTV",
   alternates: {
     languages: {
-      "en": "https://www.varodaticiptv.pro",
-      "es": "https://www.varodaticiptv.pro/es",
-      "x-default": "https://www.varodaticiptv.pro",
+      "en": "https://varodaticiptv.pro",
+      "es": "https://varodaticiptv.pro/es",
+      "x-default": "https://varodaticiptv.pro",
     },
   },
   openGraph: {

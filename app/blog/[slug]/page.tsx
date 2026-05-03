@@ -22,12 +22,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.metaTitle || `${post.title} | Varodatic IPTV`,
     description: post.metaDescription || post.excerpt,
     alternates: {
-      canonical: `https://www.varodaticiptv.pro/blog/${post.slug}`,
+      canonical: `https://varodaticiptv.pro/blog/${post.slug}`,
     },
     openGraph: {
       title: post.metaTitle || post.title,
       description: post.metaDescription || post.excerpt,
-      url: `https://www.varodaticiptv.pro/blog/${post.slug}`,
+      url: `https://varodaticiptv.pro/blog/${post.slug}`,
       type: "article",
       publishedTime: post.date,
       images: [

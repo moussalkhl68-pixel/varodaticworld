@@ -6,7 +6,7 @@ export const siteConfig = {
   brand: {
     name: "Varodatic IPTV",
     tagline: "Stream 26,000+ Channels in 4K — Zero Buffering. Ever.",
-    domain: "www.varodaticiptv.pro",
+    domain: "varodaticiptv.pro",
     language: "en",
     locale: "en_US"
   },

@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blogPosts";
 import { esBlogPosts } from "@/lib/esBlogPosts";
 
-const BASE = "https://varodatociptv.pro";
+const BASE = "https://varodaticiptv.pro";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // ── Bilingual static pages ───────────────────────────────────────────────

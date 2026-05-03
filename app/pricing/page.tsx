@@ -11,13 +11,13 @@ export async function generateMetadata() {
     title: "Varodatic IPTV Pricing — Flexible Plans | Free Trial",
     description: "Choose your Varodatic IPTV plan — 3, 6, or 12 months with 1 to 3 connections. No contracts, no hidden fees. Start your free trial today.",
     alternates: {
-      canonical: "https://www.varodaticiptv.pro/pricing",
+      canonical: "https://varodaticiptv.pro/pricing",
     },
     openGraph: {
       title: "Varodatic IPTV Pricing — Plans from $35 | Free Trial",
       description: "Flexible Varodatic IPTV plans. 3, 6 or 12 months. 1 to 3 connections. Cancel anytime.",
-      url: "https://www.varodaticiptv.pro/pricing",
-      images: [{ url: "https://www.varodaticiptv.pro/og-image.jpg", width: 1200, height: 630 }],
+      url: "https://varodaticiptv.pro/pricing",
+      images: [{ url: "https://varodaticiptv.pro/og-image.jpg", width: 1200, height: 630 }],
     },
   };
 }
