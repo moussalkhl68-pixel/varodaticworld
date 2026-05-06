@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import CTAButton from "../shared/CTAButton";
 import { MessageCircle, Mail } from "lucide-react";
@@ -21,7 +21,7 @@ export default function ContactForm() {
             
             <div className="space-y-6">
               <a 
-                href="https://wa.me/447476603520" 
+                href="https://wa.me/447828708540" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="glass p-6 rounded-2xl flex items-center hover:border-primary/50 transition-colors cursor-pointer group"
@@ -32,7 +32,7 @@ export default function ContactForm() {
                 <div>
                   <h4 className="font-heading font-bold text-white text-lg flex items-center gap-2">
                     <span className="text-[#25D366]">WhatsApp Support</span>
-                    <span className="text-[#A0A0A0] text-sm font-normal block md:inline mt-1 md:mt-0">+44 747 660 3520</span>
+                    <span className="text-[#A0A0A0] text-sm font-normal block md:inline mt-1 md:mt-0">+44 7828 708540</span>
                   </h4>
                   <p className="text-muted text-sm mt-1">Instant replies, best for live troubleshooting.</p>
                 </div>

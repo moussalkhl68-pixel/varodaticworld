@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ClipboardList, Zap, Tv } from "lucide-react";
 
 const steps = [
@@ -15,7 +15,7 @@ const steps = [
     icon: <Zap className="w-7 h-7 text-primary" />,
     title: "Accès Instantané",
     desc: "Vos identifiants sont livrés instantanément par WhatsApp ou e-mail. La configuration prend moins de 2 minutes.",
-    href: "https://wa.me/447476603520?text=Bonjour%2C%20je%20souhaite%20essayer%20Varodatic%20IPTV%20Suisse%20gratuitement",
+    href: "https://wa.me/447828708540?text=Bonjour%2C%20je%20souhaite%20essayer%20Varodatic%20IPTV%20Suisse%20gratuitement",
     cta: "Essai gratuit",
     external: true,
   },

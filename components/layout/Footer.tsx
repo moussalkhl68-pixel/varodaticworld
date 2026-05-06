@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { siteConfig } from "@/lib/siteConfig";
@@ -184,13 +184,13 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-muted">
               <li>
                 <a
-                  href="https://wa.me/447476603520"
+                  href="https://wa.me/447828708540"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#A0A0A0] hover:text-[#25D366] transition-colors flex items-center gap-2"
                 >
                   <MessageCircle className="w-5 h-5 text-[#25D366]" />
-                  WhatsApp: +44 747 660 3520
+                  WhatsApp: +44 7828 708540
                 </a>
               </li>
               <li>

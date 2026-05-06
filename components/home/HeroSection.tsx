@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -74,7 +74,7 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row gap-4"
           >
             <a
-              href="https://wa.me/447476603520?text=Hello%2C%20I%20want%20to%20start%20the%20Varodatic%20free%20trial"
+              href="https://wa.me/447828708540?text=Hello%2C%20I%20want%20to%20start%20the%20Varodatic%20free%20trial"
               target="_blank"
               rel="noopener noreferrer"
               id="hero-cta-trial"

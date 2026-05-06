@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -67,7 +67,7 @@ export default function ItHeroSection() {
             className="flex flex-col sm:flex-row gap-4"
           >
             <a
-              href="https://wa.me/447476603520?text=Ciao%2C%20voglio%20provare%20Varodatic%20IPTV%20Svizzera%20gratuitamente"
+              href="https://wa.me/447828708540?text=Ciao%2C%20voglio%20provare%20Varodatic%20IPTV%20Svizzera%20gratuitamente"
               target="_blank"
               rel="noopener noreferrer"
               id="hero-cta-trial-it"

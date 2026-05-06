@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ClipboardList, Zap, Tv } from "lucide-react";
 
 const steps = [
@@ -15,7 +15,7 @@ const steps = [
     icon: <Zap className="w-7 h-7 text-primary" />,
     title: "Get Instant Access",
     desc: "Your login credentials are delivered instantly via WhatsApp or email. Setup takes under 2 minutes.",
-    href: "https://wa.me/447476603520?text=Hello%2C%20I%20want%20to%20start%20the%20Varodatic%20free%20trial",
+    href: "https://wa.me/447828708540?text=Hello%2C%20I%20want%20to%20start%20the%20Varodatic%20free%20trial",
     cta: "Start free trial",
     external: true,
   },

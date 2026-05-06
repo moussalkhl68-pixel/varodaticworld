@@ -1,4 +1,4 @@
-import CTAButton from "../shared/CTAButton";
+﻿import CTAButton from "../shared/CTAButton";
 import { pricingData } from "@/lib/pricingData";
 
 export default function FinalCTABanner() {
@@ -16,7 +16,7 @@ export default function FinalCTABanner() {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://wa.me/447476603520?text=Hello%2C%20I%20want%20to%20start%20the%20free%20trial"
+            href="https://wa.me/447828708540?text=Hello%2C%20I%20want%20to%20start%20the%20free%20trial"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 rounded-xl border-2 border-primary text-primary font-bold hover:bg-primary hover:text-black transition-all duration-300 w-full sm:w-auto text-center"

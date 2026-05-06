@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -143,7 +143,7 @@ export default function EsPricingSection() {
                 </div>
 
                 <a
-                  href="https://wa.me/447476603520?text=Hola%2C%20quiero%20suscribirme%20a%20Varodatic%20IPTV"
+                  href="https://wa.me/447828708540?text=Hola%2C%20quiero%20suscribirme%20a%20Varodatic%20IPTV"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center py-3 px-6 rounded-xl bg-primary text-black font-bold hover:opacity-90 transition-all duration-300"
@@ -162,7 +162,7 @@ export default function EsPricingSection() {
             <span className="font-bold text-primary">prueba GRATUITA</span> — Sin tarjeta de crédito.
           </p>
           <a
-            href="https://wa.me/447476603520?text=Hola%2C%20quiero%20iniciar%20la%20prueba%20gratuita"
+            href="https://wa.me/447828708540?text=Hola%2C%20quiero%20iniciar%20la%20prueba%20gratuita"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 rounded-xl border-2 border-primary text-primary font-bold hover:bg-primary hover:text-black transition-all duration-300 mt-4"

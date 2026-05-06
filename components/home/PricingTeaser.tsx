@@ -1,4 +1,4 @@
-import CTAButton from "../shared/CTAButton";
+﻿import CTAButton from "../shared/CTAButton";
 import { pricingData } from "@/lib/pricingData";
 import { CheckCircle2 } from "lucide-react";
 
@@ -61,7 +61,7 @@ export default function PricingTeaser() {
               </div>
 
               <a
-                href="https://wa.me/447476603520?text=Hello%2C%20I%20want%20to%20subscribe%20to%20Varodatic%20IPTV"
+                href="https://wa.me/447828708540?text=Hello%2C%20I%20want%20to%20subscribe%20to%20Varodatic%20IPTV"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center py-3 px-6 rounded-xl bg-primary text-black font-bold hover:opacity-90 transition-all duration-300"

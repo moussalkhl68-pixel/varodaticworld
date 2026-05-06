@@ -215,7 +215,7 @@ export default async function EsBlogPostPage({ params }: Props) {
               {" "}— desde 35€ sin permanencia.
             </p>
             <a
-              href="https://wa.me/447476603520?text=Hola%2C%20quiero%20iniciar%20la%20prueba%20gratuita%20de%20Varodatic%20IPTV"
+              href="https://wa.me/447828708540?text=Hola%2C%20quiero%20iniciar%20la%20prueba%20gratuita%20de%20Varodatic%20IPTV"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-3 bg-primary text-black font-bold rounded-xl hover:opacity-90 transition-all"

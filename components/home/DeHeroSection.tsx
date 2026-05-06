@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -67,7 +67,7 @@ export default function DeHeroSection() {
             className="flex flex-col sm:flex-row gap-4"
           >
             <a
-              href="https://wa.me/447476603520?text=Hallo%2C%20ich%20m%C3%B6chte%20Varodatic%20IPTV%20Schweiz%20kostenlos%20testen"
+              href="https://wa.me/447828708540?text=Hallo%2C%20ich%20m%C3%B6chte%20Varodatic%20IPTV%20Schweiz%20kostenlos%20testen"
               target="_blank"
               rel="noopener noreferrer"
               id="hero-cta-trial-de"

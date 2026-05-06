@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -115,7 +115,7 @@ export default function FrPricingSection() {
                 </div>
 
                 <a
-                  href="https://wa.me/447476603520?text=Bonjour%2C%20je%20souhaite%20m%27abonner%20%C3%A0%20Varodatic%20IPTV%20Suisse"
+                  href="https://wa.me/447828708540?text=Bonjour%2C%20je%20souhaite%20m%27abonner%20%C3%A0%20Varodatic%20IPTV%20Suisse"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center py-3 px-6 rounded-xl bg-primary text-black font-bold hover:opacity-90 transition-all duration-300"
@@ -133,7 +133,7 @@ export default function FrPricingSection() {
             <span className="font-bold text-primary">ESSAI GRATUIT</span> — Sans carte de crédit.
           </p>
           <a
-            href="https://wa.me/447476603520?text=Bonjour%2C%20je%20souhaite%20commencer%20l%27essai%20gratuit"
+            href="https://wa.me/447828708540?text=Bonjour%2C%20je%20souhaite%20commencer%20l%27essai%20gratuit"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 rounded-xl border-2 border-primary text-primary font-bold hover:bg-primary hover:text-black transition-all duration-300 mt-4"

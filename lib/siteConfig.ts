@@ -1,6 +1,6 @@
-export const WHATSAPP_URL = "https://wa.me/447476603520";
+﻿export const WHATSAPP_URL = "https://wa.me/447828708540";
 export const WHATSAPP_MESSAGE_URL = 
-  "https://wa.me/447476603520?text=Hello%2C%20I%27m%20interested%20in%20Varodatic%20IPTV";
+  "https://wa.me/447828708540?text=Hello%2C%20I%27m%20interested%20in%20Varodatic%20IPTV";
 
 export const siteConfig = {
   brand: {

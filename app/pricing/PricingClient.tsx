@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Check, X, ArrowRight, Shield, CreditCard, Smartphone } from "lucide-react";
@@ -232,7 +232,7 @@ export default function PricingClient() {
                 ))}
               </ul>
               <a
-                href="https://wa.me/447476603520?text=Hello%2C%20I%20want%20to%20subscribe%20to%20Varodatic%20IPTV"
+                href="https://wa.me/447828708540?text=Hello%2C%20I%20want%20to%20subscribe%20to%20Varodatic%20IPTV"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center py-3 px-6 rounded-xl bg-primary text-black font-bold hover:opacity-90 transition-all duration-300"
@@ -339,7 +339,7 @@ export default function PricingClient() {
                   </select>
                 </div>
                 <a
-                  href="https://wa.me/447476603520?text=Hello%2C%20I%20want%20to%20start%20the%20free%20trial"
+                  href="https://wa.me/447828708540?text=Hello%2C%20I%20want%20to%20start%20the%20free%20trial"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-8 py-3 rounded-xl border-2 border-primary text-primary font-bold hover:bg-primary hover:text-black transition-all duration-300 text-center w-full"

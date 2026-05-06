@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { esBlogPosts } from "@/lib/esBlogPosts";
@@ -109,7 +109,7 @@ export default function EsBlogPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/447476603520?text=Hola%2C%20necesito%20ayuda%20con%20Varodatic%20IPTV"
+              href="https://wa.me/447828708540?text=Hola%2C%20necesito%20ayuda%20con%20Varodatic%20IPTV"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex justify-center items-center px-8 py-3 rounded-xl bg-[#25D366] text-black font-bold hover:opacity-90 transition-all"

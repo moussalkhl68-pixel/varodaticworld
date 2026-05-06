@@ -1,4 +1,4 @@
-import { pricingData } from "@/lib/pricingData";
+﻿import { pricingData } from "@/lib/pricingData";
 import { CheckCircle2 } from "lucide-react";
 
 const durationLabels: Record<string, string> = {
@@ -73,7 +73,7 @@ export default function FrPricingTeaser() {
               </div>
 
               <a
-                href="https://wa.me/447476603520?text=Bonjour%2C%20je%20souhaite%20m%27abonner%20%C3%A0%20Varodatic%20IPTV%20Suisse"
+                href="https://wa.me/447828708540?text=Bonjour%2C%20je%20souhaite%20m%27abonner%20%C3%A0%20Varodatic%20IPTV%20Suisse"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center py-3 px-6 rounded-xl bg-primary text-black font-bold hover:opacity-90 transition-all duration-300"

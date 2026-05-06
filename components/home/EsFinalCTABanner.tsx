@@ -1,4 +1,4 @@
-import CTAButton from "../shared/CTAButton";
+﻿import CTAButton from "../shared/CTAButton";
 
 export default function EsFinalCTABanner() {
   return (
@@ -14,7 +14,7 @@ export default function EsFinalCTABanner() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://wa.me/447476603520?text=Hola%2C%20quiero%20iniciar%20la%20prueba%20gratuita%20de%20Varodatic%20IPTV"
+            href="https://wa.me/447828708540?text=Hola%2C%20quiero%20iniciar%20la%20prueba%20gratuita%20de%20Varodatic%20IPTV"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 rounded-xl border-2 border-primary text-primary font-bold hover:bg-primary hover:text-black transition-all duration-300 w-full sm:w-auto text-center"

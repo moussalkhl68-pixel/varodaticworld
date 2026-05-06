@@ -1,9 +1,9 @@
-"use client";
+﻿"use client";
 
 export default function WhatsAppWidget() {
   return (
     <a
-      href="https://wa.me/447476603520?text=Hello%2C%20I%20need%20help%20with%20Varodatic%20IPTV"
+      href="https://wa.me/447828708540?text=Hello%2C%20I%20need%20help%20with%20Varodatic%20IPTV"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"

@@ -1,4 +1,4 @@
-export default function ItFinalCTABanner() {
+﻿export default function ItFinalCTABanner() {
   return (
     <section className="py-24 relative overflow-hidden bg-black">
       <div className="absolute inset-0 bg-primary/10" />
@@ -11,7 +11,7 @@ export default function ItFinalCTABanner() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://wa.me/447476603520?text=Ciao%2C%20voglio%20provare%20Varodatic%20IPTV%20Svizzera%20gratuitamente"
+            href="https://wa.me/447828708540?text=Ciao%2C%20voglio%20provare%20Varodatic%20IPTV%20Svizzera%20gratuitamente"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 rounded-xl border-2 border-primary text-primary font-bold hover:bg-primary hover:text-black transition-all duration-300 w-full sm:w-auto text-center"
